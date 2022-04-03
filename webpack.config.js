@@ -17,7 +17,7 @@ module.exports = {
   output: {
     library: {
       name: 'MyLibrary',
-      type: 'var',
+      type: 'umd',
     },
     filename: 'lib.js',
     path: path.resolve(__dirname, 'dist'),
